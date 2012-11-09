@@ -1,0 +1,26 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{{ guid_1 }}") = "{{ app_name }}", "{{ app_path }}", "{{ guid_2 }}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = {{ app_path }}
+		RemoteMachine = {{ computer_name }}
+		StartingDirectory = {{ working_directory }}
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{{ guid_2 }}.Debug|x86.ActiveCfg = Debug|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
