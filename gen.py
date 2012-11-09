@@ -11,13 +11,11 @@ def generate_sln(context):
     print j2_env.get_template('DebugProject.template').render(context)
 
 if __name__ == '__main__':
-
     parser = argparse.ArgumentParser(description='Create a Debugger Project (VS2012)')
     parser.add_argument('app_path', metavar='FILE', type=str, nargs='?',
                        help='absolute path to executable file to be debugged')
-    parser.add_argument('-w', dest='working_directory', default=False, nargs='?',
+    parser.add_argument('-w', dest='working_directory', metavar='DIR', default=False, nargs='?',
                        help='absolute path to working directory')
-
     args = parser.parse_args()
     
     #executable path is required
