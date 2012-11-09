@@ -3,7 +3,7 @@ Generates an empty Debug Project with the requested executable as part of the so
 Script doesn't check if the executable you request exists, or if you actually provided a full path and not just line noise, but given it's just rendering to a template any mistakes can be corrected by just re-running the script with the correct arguments.
 
 Usage:
-args.py "C:\full\path\to\executable.exe" [-w "E:\full\path\to\working\directory"]
+gen.py "C:\full\path\to\executable.exe" [-w "E:\full\path\to\working\directory"]
 
 If no working directory is provided, the directory containing the executable to be debugged is used.
 

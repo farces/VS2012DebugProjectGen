@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "SimpleTriangle", "E:\code\3 - Simple Triangle\SimpleTriangle\bin\Debug\SimpleTriangle.exe", "{D418E876-6ACE-46C3-9507-57D56E54DEB2}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = E:\code\3 - Simple Triangle\SimpleTriangle\bin\Debug\SimpleTriangle.exe
+		RemoteMachine = FACEST-PC
+		StartingDirectory = E:\code\3 - Simple Triangle\SimpleTriangle\bin\Debug
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D418E876-6ACE-46C3-9507-57D56E54DEB2}.Debug|x86.ActiveCfg = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
